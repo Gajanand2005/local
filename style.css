@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    color: #fff;
+    
+        font-family: "Poppins", serif;
+        font-weight: 100;
+        font-style: normal;
+    
+
+    
+      
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    position: relative;
+}
+.main video{
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+     object-position: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+}
+.main-container{
+height: 100%;
+width: 100%;
+position: relative;
+
+}
+nav{
+    height: 10%;
+    width: 99.6%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.middle-container{
+    height: 80%;
+    width: 99.6%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.footer{
+    height: 10%;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.icons{
+    display: flex;
+    gap: 3vh;
+}
+.icons i{
+    font-size: 4vh;
+    transition: transform 0.3s, ease-in-out, color 0.3s, ease-in-out;
+}
+.icons i:hover{
+    transform: translateY(-5px) scale(1.05);
+    color: white;
+}
+.nav-link{
+    display: flex;
+    gap: 2.4vh;
+    text-transform: uppercase;
+}
+.logo{
+    font-size: 4vh;
+    
+
+}
+nav-link h1{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 3vh;
+}
+.left{
+    height: 65%;
+    width: 50%;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.right{
+    height: 65%;
+    width: 40%;
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.middle-container img{
+    height: 30vh;
+    width: 30vh;
+    object-fit: contain;
+    object-position: center;
+}
+.middle-container h1{
+    font-size: 5vh;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.left img{
+    position: absolute;
+    top:-5%;
+}
+.right img{
+    position: absolute;
+    bottom: 15%;
+}
+footer h1{
+    font-weight: 300;
+    font-size: 5vh;
+    position: absolute;
+    left: 810px;
+    top: 550px;
+}
